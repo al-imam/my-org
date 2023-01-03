@@ -1,10 +1,12 @@
-import { Router, Link, Outlet } from "@tanstack/react-location";
+import { Router, Outlet, Navigate } from "@tanstack/react-location";
+import Profile from "./components/Profile/Profile";
 import routes, { location } from "./routes/router";
 
 function App() {
   return (
     <Router location={location} routes={routes}>
-      here will go my nav and profile
+      <Navigate to="about" replace />
+      <Profile />
       <Outlet />
     </Router>
   );
