@@ -14,11 +14,6 @@ const Name = () => (
 
       <p>Web developer</p>
     </div>
-
-    <button>
-      <span>Show Contacts</span>
-      <IoIosArrowDown />
-    </button>
   </div>
 );
 
