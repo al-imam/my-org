@@ -5,7 +5,7 @@ import { TbCalendarTime } from "react-icons/tb";
 import classes from "./contactList.module.css";
 
 export default () => (
-  <ul>
+  <ul className={classes.items}>
     <ContactItem
       element={<a href="mailto:alimam01828@gmail.com">alimam01828@gmail.com</a>}
       title="Email"
