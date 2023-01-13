@@ -7,3 +7,7 @@
   font-family: Sans-Serif;
   font-size: 1rem;
 }
+
+:where(.heading, .subtitle) {
+  color: var(--gray-900);
+}
