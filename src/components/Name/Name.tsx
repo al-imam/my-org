@@ -2,8 +2,9 @@ import { IoIosArrowDown } from "react-icons/io";
 import classes from "./name.module.css";
 
 const Name = () => (
-  <div>
+  <div className={classes.name}>
     <div
+      className={classes.img}
       style={{
         width: "5rem",
         height: "5rem",
@@ -11,12 +12,12 @@ const Name = () => (
       }}
     ></div>
 
-    <div>
-      <h1 className="name" title="Al Imam">
+    <div className={classes.nameInfo}>
+      <h1 className={classes.heading} title="Al Imam">
         Al Imam
       </h1>
 
-      <p>Web developer</p>
+      <p className={classes.subtitle}>Web developer</p>
     </div>
   </div>
 );
