@@ -1,0 +1,4 @@
+.itemInfo :is(a, time, address, p) {
+  font-family: Sans-Serif;
+  font-size: 1rem;
+}

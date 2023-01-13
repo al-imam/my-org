@@ -11,10 +11,9 @@ const ContactItem: React.FunctionComponent<ItemProps> = ({
   icon,
   title,
 }) => (
-  <li>
-    <div>{icon}</div>
-
-    <div>
+  <li className={classes.item}>
+    {icon}
+    <div className={classes.itemInfo}>
       <p>{title}</p>
       {element}
     </div>
