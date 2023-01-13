@@ -1,3 +1,9 @@
+.item {
+  display: flex;
+  align-items: center;
+}
+
+
 .itemInfo :is(a, time, address, p) {
   font-family: Sans-Serif;
   font-size: 1rem;
