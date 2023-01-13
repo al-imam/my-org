@@ -3,9 +3,13 @@ import classes from "./name.module.css";
 
 const Name = () => (
   <div>
-    <figure>
-      <img src="/assets/my-avatar.png" alt="Al Imam" />
-    </figure>
+    <div
+      style={{
+        width: "5rem",
+        height: "5rem",
+        backgroundColor: "var(--gray-100)",
+      }}
+    ></div>
 
     <div>
       <h1 className="name" title="Al Imam">
