@@ -2,7 +2,7 @@ import { FaFacebookSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 import classes from "./social.module.css";
 
 const Social = () => (
-  <ul>
+  <ul className={classes.social}>
     <li>
       <a href="#">
         <FaFacebookSquare />
