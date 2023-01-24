@@ -1,7 +1,7 @@
 import { FaFacebookSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 import classes from "./social.module.css";
 
-export default () => (
+const Social () => (
   <ul>
     <li>
       <a href="#">
@@ -22,3 +22,5 @@ export default () => (
     </li>
   </ul>
 );
+
+export default Social;
