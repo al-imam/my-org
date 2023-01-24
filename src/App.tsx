@@ -5,7 +5,6 @@ import routes, { location } from "./routes/router";
 function App() {
   return (
     <Router location={location} routes={routes}>
-      <Navigate to="about" replace />
       <Profile />
       <Outlet />
     </Router>
